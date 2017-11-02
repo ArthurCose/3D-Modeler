@@ -1,4 +1,3 @@
 [submodule "noto-emoji"]
 	path = noto-emoji
-	url = https://github.com/googlei18n/noto-emoji/
-	branch = 50addd12f47dfc50d0f03fbd82f5227bff07eb34
+	url = https://github.com/googlei18n/noto-emoji
