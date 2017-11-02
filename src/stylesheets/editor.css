@@ -1,0 +1,22 @@
+#editor{
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr max-content;
+  grid-template-areas:
+    "view       properties"
+    "animation  properties";
+  flex: 1;
+}
+
+.view{
+  grid-area: view;
+  background: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.view canvas{
+  position: absolute;
+  top:0
+}

@@ -1,0 +1,19 @@
+#menubar{
+  grid-area: menubar;
+  background: #bbbbbb;
+  color: black;
+  height: 25px;
+  width: 100%;
+}
+
+#menubar button{
+  height: 100%;
+}
+
+#menubar button:hover{
+  background: #ffffff22;
+}
+
+#menubar button:active{
+  background: #00000022;
+}

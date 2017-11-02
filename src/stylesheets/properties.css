@@ -1,0 +1,51 @@
+.properties{
+  grid-area: properties;
+  background: #333333;
+  color: white;
+}
+
+.properties input[type=number],
+.properties input[type=text]{
+  width: 100px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.properties input[type=color]{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+input[type=color]::-webkit-color-swatch{
+	border: 0;
+}
+
+input[type=color]::-webkit-color-swatch-wrapper{
+	padding: 0;
+}
+
+.properties .property{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.properties .property table{
+  margin-left: 10px;
+}
+
+.properties .property .expand-button{
+  width: 100%;
+  background: #ffffff22;
+  padding: 3px;
+}
+
+.properties .property .expand-button:hover{
+  background: #ffffff44;
+}
